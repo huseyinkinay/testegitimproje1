@@ -15,14 +15,15 @@
     opacity: .9;
 }
 .navbar{
-    width: 85%;
+    width: 100%;
     display: flex;
     position: relative;
     padding: 10px;
+    float: right;
       
 
 }
-.navbar ul{
+.navbar ul li{
     float: right;
     margin-right: 20px;
 }
