@@ -32,7 +32,7 @@
     width: 120px;
     height: auto;
     cursor: pointer;
-    float: left;
+    float: right;
 }
 .navbar ul li a{
     text-decoration: none;
