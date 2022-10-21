@@ -12,36 +12,56 @@
     background-image: url(img/background.jpg);
     background-size: cover;
     background-position: center;
+    
     opacity: .9;
 }
-.navbar{
+.navbar
+{
     width: 100%;
-    display: flex;
-    position: relative;
+    
     padding: 10px;
-    float: right;
-      
-
+    background: rgba(22,112,214,0.4);
+ 
 }
-.navbar ul li{
+.navbar ul{
     float: right;
     margin-right: 20px;
-    position: relative;
+    
 }
 
-.logo{
-    width: 120px;
+.navbar .logo{
+    display: inline-block;
+    margin-left: 50px ;
+    width: 10px;
     height: auto;
     cursor: pointer;
-    float: right;
+   
 }
-.navbar ul li a{
+.navbar ul li{
     text-decoration: none;
     color: rgb(0, 0, 0);
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px; 
     text-transform: uppercase;
    
 }
-.navbar ul li::after{
+.navbar ul li a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: yellow;
+    border-radius: 2px;      
+}
+/*.navbar ul li::after{
     content:"";
     height: 3px;
     width:0;
@@ -53,7 +73,7 @@
 }
 .navbar ul li:hover::after{
     width:100%;
-}
+}*/
 .content{
     /*background-color: yellowgreen;*/
     width:100%;
